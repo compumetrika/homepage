@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compumetrika</title>
+    <link>http://github.com/compumetrika/homepage/tags/main_pages/index.xml</link>
+    <description>Recent content on Compumetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <atom:link href="http://github.com/compumetrika/homepage/tags/main_pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Research</title>
+      <link>http://github.com/compumetrika/homepage/pages/backup_of_research/</link>
+      <pubDate>Wed, 15 Apr 2015 21:21:50 -0400</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/backup_of_research/</guid>
+      <description>
+
+&lt;p&gt;This page is in progress &amp;ndash; actively being updated from a much older vintage!&lt;/p&gt;
+
+&lt;h2 id=&#34;publications-work-in-progress&#34;&gt;Publications &amp;amp; Work in Progress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Geanakoplos et al (2012), &amp;ldquo;Getting at Systemic Risk via an Agent-Based Model of the Housing Market.&amp;rdquo; &lt;em&gt;American Economic Review&lt;/em&gt;, 102(3): 53–58.
+
+&lt;ul&gt;
+&lt;li&gt;Efforts to address agent behavior in this highly complicated setting motivated my dissertation research.&lt;/li&gt;
+&lt;li&gt;Paper &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/aer.102.3.53&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More in Peter Howitt&amp;rsquo;s Session 2 &lt;a href=&#34;http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;here&lt;/a&gt;; in particular, see the discussion by Sufi, Sims, Cochrane, Hansen, and others. Cochrane&amp;rsquo;s questions in particular are what I hope to address in my own research. (&lt;a href=&#34;https://web.archive.org/web/*/http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;Archived&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Rob Axtell discusses this model briefly near the end of &lt;a href=&#34;http://www.youtube.com/watch?v=c-sieJVR5TI&#34;&gt;this talk&lt;/a&gt;, around 12:40.&lt;/li&gt;
+&lt;li&gt;Updated versions:
+
+&lt;ul&gt;
+&lt;li&gt;Slides, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_04_eltville_08_agent_based_model_of_housing_market_bubble_presentation.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paper, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_05_eltville_10_axtell.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My consumption research &lt;a href=&#34;http://editorialexpress.com/conference/CEF2012/program/CEF2012.html#31&#34;&gt;presented&lt;/a&gt; at &lt;a href=&#34;http://comp-econ.org/CEF_2012/index.htm&#34;&gt;CEF 2012&lt;/a&gt;.
+
+&lt;ul&gt;
+&lt;li&gt;Very preliminary version of the paper is &lt;a href=&#34;https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&amp;amp;paper_id=450&#34;&gt;linked here&lt;/a&gt;; an &lt;em&gt;&lt;strong&gt;extensively&lt;/strong&gt;&lt;/em&gt; updated version is in progress and will be out any day now&amp;hellip;&lt;/li&gt;
+&lt;li&gt;CEF Slides can be found &lt;a href=&#34;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxuYXRoYW5tcGFsbWVyfGd4OjEzNTYzNzExMTExMTAyMGE&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Heterogeneous-Agent Resources toolKit (HARK) with Chris Carroll, Matt White, David Low, and many others: an effort to bring together cutting-edge tools from research and software development to create a modular, extensible set of code libraries for the easy creation of heterogeneous-agent, micro-founded models. These are to include models in which some &amp;ldquo;alpha&amp;rdquo; fraction of truly rational agents are mixed in with (1-alpha) non-optimizing agents. A truly rational agent in this setting, of course, must anticipate the actions and outcomes of both the non-optimizing agents as well as the optimizing agents.
+
+&lt;ul&gt;
+&lt;li&gt;This is a particularly exciting project &amp;ndash; much more coming soon!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://github.com/compumetrika/homepage/pages/research/</link>
+      <pubDate>Wed, 15 Apr 2015 21:21:50 -0400</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research/</guid>
+      <description>
+
+&lt;h1 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h1&gt;
+
+&lt;h4 id=&#34;palmer-n-m-2017-estimation-and-selection-in-micro-structural-model-of-consumption&#34;&gt;Palmer, N. M. (2017), Estimation and Selection in Micro-Structural Model of Consumption&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A structural microeconomic estimation of the fraction of rule-of-thumb households versus life cycle optimizing households in micro data. Initial results are consistent with roughly 50% of households following a rule of thumb, a structural microeconomic echo of Campbell and Mankiw&amp;rsquo;s (&lt;a href=&#34;http://www.nber.org/papers/w2924&#34;&gt;1989&lt;/a&gt;, &lt;a href=&#34;http://econpapers.repec.org/article/besjnlbes/v_3a8_3ay_3a1990_3ai_3a3_3ap_3a265-79.htm&#34;&gt;1990&lt;/a&gt; ) result.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Draft in progress.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;palmer-n-m-2017-learning-to-dynamically-optimize-from-individual-experience&#34;&gt;Palmer, N. M. (2017), Learning to Dynamically Optimize from Individual Experience&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A theoretical model of households learning the optimal consumption-savings problem from their own experience. This draws from the recent &lt;a href=&#34;http://web.mit.edu/dimitrib/www/dpchapter.html&#34;&gt;approximate dynamic programming&lt;/a&gt; and &lt;a href=&#34;https://mitpress.mit.edu/books/reinforcement-learning&#34;&gt;reinforcement learning&lt;/a&gt; literatures to develop a relatively fast, low-parameter, intuitive learning mechanism based on individual agent&amp;rsquo;s &amp;ldquo;regret&amp;rdquo; regarding past decisions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Presented at &lt;a href=&#34;https://editorialexpress.com/conference/CEF2016/program/CEF2016.html&#34;&gt;CEF 2016&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Draft in progress, nearly complete.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;carroll-kaufman-low-palmer-white-2017-heterogeneous-agents-resources-and-toolkit-hark-https-github-com-econ-ark-hark&#34;&gt;Carroll, Kaufman, Low, Palmer, White (2017), &amp;ldquo;&lt;a href=&#34;https://github.com/econ-ark/HARK&#34;&gt;Heterogeneous Agents Resources and toolKit (HARK)&lt;/a&gt;&amp;ldquo;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A toolkit for creating heterogeneous-agent macroeconomic models using the &lt;a href=&#34;http://www.journals.uchicago.edu/doi/abs/10.1086/250034?journalCode=jpe&#34;&gt;Krusell-Smith (1998)&lt;/a&gt; solution algorithm, household life-cycle optimization, and simulation-based estimation.
+
+&lt;ul&gt;
+&lt;li&gt;Because the Krusell-Smith algorithm can be used to solve models which contain a mix of optimizing and non-optimizing agents (as seen in their earlier 1996 paper, &amp;ldquo;&amp;rdquo;), I intend to use this to explore models which mix elements of traditional and agent-based models.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;palmer-n-m-2012-learning-to-consume-social-learning&#34;&gt;Palmer, N. M. (2012), Learning to Consume: Social Learning&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A simple model of households learning the optimal consumption-savings problem from the experience of others. Think replicator dynamics, but with estimates of infinite-horizon value functions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This social learning consumption research &lt;a href=&#34;http://editorialexpress.com/conference/CEF2012/program/CEF2012.html#31&#34;&gt;presented&lt;/a&gt; at &lt;a href=&#34;http://comp-econ.org/CEF_2012/index.htm&#34;&gt;CEF 2012&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Very preliminary version of the paper is &lt;a href=&#34;https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&amp;amp;paper_id=450&#34;&gt;linked here&lt;/a&gt;; an &lt;em&gt;&lt;strong&gt;extensively&lt;/strong&gt;&lt;/em&gt; updated version is in progress and will be out any day now&amp;hellip;&lt;/li&gt;
+&lt;li&gt;CEF Slides can be found &lt;a href=&#34;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxuYXRoYW5tcGFsbWVyfGd4OjEzNTYzNzExMTExMTAyMGE&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;published&#34;&gt;Published&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Geanakoplos, J., Axtell, R., Farmer, D.J., Howitt, P., Conlee, B., Goldstein, J., Hendrey, M., Palmer, N.M. and Yang, C.Y (2012), &amp;ldquo;Getting at Systemic Risk via an Agent-Based Model of the Housing Market.&amp;rdquo; &lt;em&gt;American Economic Review&lt;/em&gt;, 102(3): 53–58.
+
+&lt;ul&gt;
+&lt;li&gt;Efforts to address agent behavior in this highly complicated setting motivated my dissertation research.&lt;/li&gt;
+&lt;li&gt;Paper &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/aer.102.3.53&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More in Peter Howitt&amp;rsquo;s Session 2 &lt;a href=&#34;http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;here&lt;/a&gt;; in particular, see the discussion by Sufi, Sims, Cochrane, Hansen, and others. Cochrane&amp;rsquo;s questions in particular are what I hope to address in my own research. (&lt;a href=&#34;https://web.archive.org/web/*/http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;Archived&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Rob Axtell discusses this model briefly near the end of &lt;a href=&#34;http://www.youtube.com/watch?v=c-sieJVR5TI&#34;&gt;this talk&lt;/a&gt;, around 12:40.&lt;/li&gt;
+&lt;li&gt;Updated versions:
+
+&lt;ul&gt;
+&lt;li&gt;Slides, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_04_eltville_08_agent_based_model_of_housing_market_bubble_presentation.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paper, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_05_eltville_10_axtell.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;additional-topics-of-interest&#34;&gt;Additional Topics of Interest&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Housing in the macroeconomy&lt;/li&gt;
+&lt;li&gt;Banking/financial frictions in the macroeconomy&lt;/li&gt;
+&lt;li&gt;Heterogeneous-agent macroeconomic models&lt;/li&gt;
+&lt;li&gt;Simulation-based estimation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

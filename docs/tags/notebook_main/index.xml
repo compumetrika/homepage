@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compumetrika</title>
+    <link>http://github.com/compumetrika/homepage/tags/notebook_main/index.xml</link>
+    <description>Recent content on Compumetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <atom:link href="http://github.com/compumetrika/homepage/tags/notebook_main/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Notebooks</title>
+      <link>http://github.com/compumetrika/homepage/pages/notebooks/</link>
+      <pubDate>Wed, 25 Jan 2017 21:44:23 -0500</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/notebooks/</guid>
+      <description>
+
+&lt;p&gt;This is simple collection of hypertext notebooks, unabashedly inspired by Cosma Shalizi&amp;rsquo;s &lt;a href=&#34;http://bactra.org/notebooks/&#34;&gt;excellent collection&lt;/a&gt;. I find myself frequently jotting down ideas on tiny scraps of paper, napkins, etc., always to be lost in the shuffle. This is a simple way to collect those in one place. At a minimum, these are simple lists of references to resources I&amp;rsquo;ve found useful for a particular topic.&lt;/p&gt;
+
+&lt;p&gt;These are organized &lt;del&gt;alphabetically&lt;/del&gt; by my personal interest, and all will almost certainly be in a continual state of update:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/ABM&#34;&gt;Agent Based Modeling&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Also, &amp;ldquo;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/So-You-Want-To-Build-an-ABM&#34;&gt;So you want to build an ABM&lt;/a&gt;&amp;ldquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/DynamicProgramming&#34;&gt;Dynamic Programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/Learning-and-Expectations&#34;&gt;Learning and Expectations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;notebooks-yet-to-write&#34;&gt;Notebooks Yet to Write&lt;/h2&gt;
+
+&lt;p&gt;By order of interest:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reinforcement learning&lt;/li&gt;
+&lt;li&gt;Automatic differentiation&lt;/li&gt;
+&lt;li&gt;Pandoc and related tools&lt;/li&gt;
+&lt;li&gt;Simulation-based estimation&lt;/li&gt;
+&lt;li&gt;Machine learning&lt;/li&gt;
+&lt;li&gt;Multivariate statistics&lt;/li&gt;
+&lt;li&gt;Approximate dynamic programming (&amp;ldquo;ADP&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Bayesian stats&lt;/li&gt;
+&lt;li&gt;Big Data&lt;/li&gt;
+&lt;li&gt;Heterogeneous agents&lt;/li&gt;
+&lt;li&gt;Learning-to-optimize, methods&lt;/li&gt;
+&lt;li&gt;Learning to optimize in practice
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;How do people learn in real life?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Model selection&lt;/li&gt;
+&lt;li&gt;Optimization in non-stationary systems&lt;/li&gt;
+&lt;li&gt;Rational expectations&lt;/li&gt;
+&lt;li&gt;Power laws&lt;/li&gt;
+&lt;li&gt;Simulation-based optimization&lt;/li&gt;
+&lt;li&gt;Statistics for the (Computational) Social Scientist&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compumetrika</title>
+    <link>http://github.com/compumetrika/homepage/tags/notebooks/index.xml</link>
+    <description>Recent content on Compumetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <atom:link href="http://github.com/compumetrika/homepage/tags/notebooks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agent-Based Models</title>
+      <link>http://github.com/compumetrika/homepage/pages/research-notebooks/ABM/</link>
+      <pubDate>Wed, 25 Jan 2017 21:44:13 -0500</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research-notebooks/ABM/</guid>
+      <description>&lt;p&gt;I strongly believe that agent-based modeling is simply the next step in computational economic modeling, incorporating insights from software engineering to construct models that &amp;ldquo;trace out&amp;rdquo; the effects of &amp;ldquo;well tested theory&amp;rdquo; (to use &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/jep.10.1.69&#34;&gt;Kydland and Prescott&amp;rsquo;s&lt;/a&gt; terminology).&lt;/p&gt;
+
+&lt;p&gt;Agent-based models often relax optimization in favor of &amp;ldquo;something else.&amp;rdquo; Ongoing research in areas such as &lt;a href=&#34;http://www.nber.org/papers/w17783&#34;&gt;boundedly rational dynamic programming&lt;/a&gt;, &lt;a href=&#34;http://www2.econ.iastate.edu/tesfatsi/aemind.htm&#34;&gt;Q-learning &amp;amp; related tools&lt;/a&gt;, and &lt;a href=&#34;http://ideas.repec.org/p/ore/uoecwp/2010-15.html&#34;&gt;N-Period-ahead learning&lt;/a&gt; are just a few examples possible alternative behaviors which have a solid theoretical foundation. Another approach, of course, is to &amp;ldquo;mix&amp;rdquo; some optimal and non-optimal behavior, either in a single agent (as in Laibson et al.&amp;rsquo;s  &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/jep.24.4.67&#34;&gt;Natural Expectations&lt;/a&gt;, which is begging to be combined with a Bayesian approach a la &lt;a href=&#34;http://www.pnas.org/content/104/22/9493.full&#34;&gt;fictive learning&lt;/a&gt; ) or in a population of agents (as in &lt;a href=&#34;http://www.frbsf.org/economics/economists/staff.php?klansing&#34;&gt;Lansing&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&amp;amp;paper_id=329&#34;&gt;work&lt;/a&gt; and &lt;a href=&#34;http://www.wouterdenhaan.com/&#34;&gt;Wouter den Haan&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;http://www.wouterdenhaan.com/numerical/boundedrationalityslides.pdf&#34;&gt;work&lt;/a&gt;). Beyond these approaches, of course, are econometric and statistical learning approaches, game-theoretic approaches, and AI and evolutionary approaches. For me an ideal outcome of these processes is a modular learning and expectations-formation procedures that are well-understood both at the individual level as well as at the aggregate level, which may then be used in any number of large-scale simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Programming</title>
+      <link>http://github.com/compumetrika/homepage/pages/research-notebooks/DynamicProgramming/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research-notebooks/DynamicProgramming/</guid>
+      <description>
+
+&lt;p&gt;Dynamic programming is a broad set of methods for solving hard / complicated problems by recusively breaking them down into simpler sub-problems and solving those. The method is used widely in economics to solve optimization problems associated with agent choice (as reflected in &lt;a href=&#34;https://books.google.com/books?id=Xx-j-tYaPQUC&amp;amp;lpg=PR5&amp;amp;vq=imperialism&amp;amp;pg=PA1#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;Sargent&amp;rsquo;s &amp;ldquo;Imperialism of recursive methods&amp;rdquo; preface&lt;/a&gt; ).&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;Simply a collection of resources I have personally found useful. I make no claim that these represent an exhaustive survey. In addition to the &amp;ldquo;typical&amp;rdquo; dynamic programming texts, the following are some slightly less common resources for DP in economics.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html&#34;&gt;Reinforcement Learning&lt;/a&gt; by Sutton and Barto. See Chapters 3 and 4 for an excellent entry-level discussion of the dynamic programming framework.&lt;/li&gt;
+&lt;li&gt;Adda/Cooper&lt;/li&gt;
+&lt;li&gt;Chris Carroll&amp;rsquo;s electronic notes&lt;/li&gt;
+&lt;li&gt;Bertsekas, Abstract DP and many resources&lt;/li&gt;
+&lt;li&gt;Powell, Approx DP&lt;/li&gt;
+&lt;li&gt;Jose Vidal, Multiagent Systems&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Programming</title>
+      <link>http://github.com/compumetrika/homepage/pages/research-notebooks/copy%20of%20DynamicProgramming/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research-notebooks/copy%20of%20DynamicProgramming/</guid>
+      <description>
+
+&lt;p&gt;Dynamic programming is a broad set of methods for solving hard / complicated problems by recusively breaking them down into simpler sub-problems and solving those. The method is used widely in economics to solve optimization problems associated with agent choice (as reflected in &lt;a href=&#34;https://books.google.com/books?id=Xx-j-tYaPQUC&amp;amp;lpg=PR5&amp;amp;vq=imperialism&amp;amp;pg=PA1#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;Sargent&amp;rsquo;s &amp;ldquo;Imperialism of recursive methods&amp;rdquo; preface&lt;/a&gt; ).&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;Simply a collection of resources I have personally found useful. I make no claim that these represent an exhaustive survey. In addition to the &amp;ldquo;typical&amp;rdquo; dynamic programming texts, the following are some slightly less common resources for DP in economics.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html&#34;&gt;Reinforcement Learning&lt;/a&gt; by Sutton and Barto. See Chapters 3 and 4 for an excellent entry-level discussion of the dynamic programming framework.&lt;/li&gt;
+&lt;li&gt;Adda/Cooper&lt;/li&gt;
+&lt;li&gt;Chris Carroll&amp;rsquo;s electronic notes&lt;/li&gt;
+&lt;li&gt;Bertsekas, Abstract DP and many resources&lt;/li&gt;
+&lt;li&gt;Powell, Approx DP&lt;/li&gt;
+&lt;li&gt;Jose Vidal, Multiagent Systems&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

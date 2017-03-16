@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compumetrika</title>
+    <link>http://github.com/compumetrika/homepage/tags/about/index.xml</link>
+    <description>Recent content on Compumetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <atom:link href="http://github.com/compumetrika/homepage/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://github.com/compumetrika/homepage/pages/about/</link>
+      <pubDate>Wed, 15 Apr 2015 21:34:49 -0400</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/about/</guid>
+      <description>
+
+&lt;p&gt;Welcome to my personal homepage. I hold a PhD in &lt;a href=&#34;http://www.css.gmu.edu/&#34;&gt;Computational Social Science&lt;/a&gt; from George Mason University and currently currently work as a computational economist at the &lt;a href=&#34;https://www.financialresearch.gov/&#34;&gt;Office of Financial Research&lt;/a&gt; in the U.S. Treasury.*&lt;/p&gt;
+
+&lt;p&gt;*&lt;em&gt;Please note: all opinions expressed here are my own and do not represent those of the Office of Financial Research, U.S. Treasury, or any other potentially affiliated organizations.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;areas-of-expertise&#34;&gt;Areas of Expertise&lt;/h2&gt;
+
+&lt;p&gt;I specialize in simulation techniques applied to macroeconomics and finance, household finance, and a wide range of related subjects. The statistical tools needed to understand and construct these models are also a key interest of mine.&lt;/p&gt;
+
+&lt;p&gt;There is a tremendous amount of computing power and data available to us these days. I work on methods that bring together &amp;ldquo;big data&amp;rdquo; and &amp;ldquo;big computation&amp;rdquo; to address research questions. One of these tools is &lt;a href=&#34;https://en.wikipedia.org/wiki/Agent-based_model&#34;&gt;agent-based models&lt;/a&gt; (ABM). My research addresses fundamental questions associated with this class of model, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where does agent behavior come from?&lt;/li&gt;
+&lt;li&gt;How do you get prices?&lt;/li&gt;
+&lt;li&gt;How do you estimate these models?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The answers to these questions come from the economic and applied mathematics literatures, and include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Behavior: adaptive approximate optimization&lt;/li&gt;
+&lt;li&gt;Prices: any number of market structures - clearing, search, matching, N-lateral trade, market makers, etc.&lt;/li&gt;
+&lt;li&gt;Estimation: simulation-based inference.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I thoroughly enjoy the programming and computational methods required to answer these questions and the &lt;a href=&#34;http://johnstachurski.net/maths.html&#34;&gt;mathematics&lt;/a&gt; needed to understand and use computational models. These topics are covered further in my research pages and notebooks.&lt;/p&gt;
+
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;My &lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research&#34;&gt;research page&lt;/a&gt; outlines my publications and work in progress.&lt;/p&gt;
+
+&lt;h2 id=&#34;notebooks&#34;&gt;Notebooks&lt;/h2&gt;
+
+&lt;p&gt;My &lt;a href=&#34;http://github.com/compumetrika/homepage/pages/notebooks&#34;&gt;notebooks&lt;/a&gt; are a simple collection of ideas and resources, spanning a wide range to topics. These exist as a &amp;ldquo;scratchwork area&amp;rdquo; to store things I personally find useful or interesting. If you find them useful as well, excellent! (And if you feel anything useful is missing, feel free to send a reference.)&lt;/p&gt;
+
+&lt;h2 id=&#34;teaching&#34;&gt;Teaching&lt;/h2&gt;
+
+&lt;p&gt;I have enjoyed teaching computational supplements in &lt;a href=&#34;https://ices.gmu.edu/academics/courses&#34;&gt;Econ 838&lt;/a&gt; and &lt;a href=&#34;http://www.css.gmu.edu/~axtell/Rob/Teaching.html&#34;&gt;CSS 739&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My material for parametric and non-parametric statistics for Econ 838 is only available to students who have taken the course or obtained special permission from the instructor.&lt;/p&gt;
+
+&lt;p&gt;My crash course in dynamic programming for CSS 739 may be available upon request.&lt;/p&gt;
+
+&lt;h2 id=&#34;blog&#34;&gt;Blog&lt;/h2&gt;
+
+&lt;p&gt;My blog (which is updated infrequently) can be found &lt;a href=&#34;http://github.com/compumetrika/homepage/#blog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
+
+&lt;p&gt;Aside from &lt;a href=&#34;http://www.comp-econ.org/&#34;&gt;computational economics&lt;/a&gt; and &lt;a href=&#34;http://www.youtube.com/watch?v=c-sieJVR5TI&#34;&gt;agent-based&lt;/a&gt; &lt;a href=&#34;http://www2.econ.iastate.edu/tesfatsi/ace.htm&#34;&gt;modeling&lt;/a&gt;, I thoroughly enjoy being outdoors. As a native South Texan, I miss Tex-Mex and &amp;ldquo;western ballroom&amp;rdquo; (two-step, waltz, polka, swing). I recently discovered that some activities I enjoyed in undergrad are nowadays described as &amp;ldquo;freerunning&amp;rdquo; or &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Parkour&#34;&gt;parkour&lt;/a&gt;.&amp;rdquo; I&amp;rsquo;m certainly not in shape enough for that now, but I&amp;rsquo;d love to get into it again someday&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;On an academic note, I really enjoy &lt;a href=&#34;http://lectures.quantecon.org/py/index.html&#34;&gt;programming and computational approaches&lt;/a&gt;, and the &lt;a href=&#34;http://johnstachurski.net/maths.html&#34;&gt;mathematics&lt;/a&gt; needed to understand and use computational models.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
