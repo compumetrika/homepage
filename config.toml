@@ -2,7 +2,7 @@ theme="blackburn"
 languageCode = "en-us"
 builddrafts = false
 
-baseurl = "http://github.com/compumetrika/homepage/"
+baseurl = "https://compumetrika.github.io/homepage/"
 title = "Compumetrika"
 author = "Nathan M. Palmer"
 # Shown in the side menu
