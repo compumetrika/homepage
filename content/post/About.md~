@@ -1,0 +1,44 @@
++++
+Categories = ["Main_Pages"]
+Description = ""
+Tags = ["Main_Pages"]
+date = "2015-04-15T21:34:49-04:00"
+menu = "main"
+title = "About"
+
++++
+Welcome to my personal homepage. I hold a PhD in [Computational Social Science](http://www.css.gmu.edu/) from George Mason University. I specialize in simulation techniques applied to macroeconomics and  finance. I currently work as a computational economist at the [Office of Financial Research](https://www.financialresearch.gov/) in the U.S. Treasury. *Please note: all opinions expressed here are my own and do not represent those of the Office of Financial Research, U.S. Treasury, or any other potentilly affiliated organizations.*
+
+## Research
+
+My [research page](/pages/research) outlines my current publications and work in progress.
+
+## Notebooks
+
+My [notebooks](/pages/Notebooks) are a simple collection of ideas and resources, spanning a wide range to topics. These exist as a "scratchwork area" to store things I personally find useful or interesting. If you find them useful as well, excellent! (And if you feel anything useful is missing, feel free to send a reference.)
+
+## Teaching
+
+I have enjoyed teaching computational supplements in [Econ 838](https://ices.gmu.edu/academics/courses) and [CSS 739](http://www.css.gmu.edu/~axtell/Rob/Teaching.html).
+
+My material for parametric and non-parametric statistics for Econ 838 is only available to students who have taken the course or obtained special permission from the instructor.
+
+My crash course in dynamic programming for CSS 739 may be available upon request.
+
+
+## Blog
+
+My blog (which is updated somewhat infrequently) can be found [here](/#blog).
+
+
+## Interests
+
+Aside from [computational economics](http://www.comp-econ.org/) and [agent-based](http://www.youtube.com/watch?v=c-sieJVR5TI) [modeling](http://www2.econ.iastate.edu/tesfatsi/ace.htm), I thoroughly enjoy being outdoors. As a native South Texan, I miss Tex-Mex and "western ballroom" (two-step, waltz, polka, swing). I recently discovered that some activities I enjoyed in undergrad are nowadays described as "freerunning" or "[parkour](http://en.wikipedia.org/wiki/Parkour)." I'm certainly not in shape enough for that now, but I'd love to get into it again someday...
+
+On an academic note, I really enjoy [programming and computational approaches](http://lectures.quantecon.org/py/index.html), and the [mathematics](http://johnstachurski.net/maths.html) needed to understand and use computational models.  
+
+I strongly believe that agent-based modeling is simply the next step in computational economic modeling, incorporating insights from software engineering to construct models that "trace out" the effects of "well tested theory" (to use [Kydland and Prescott's](http://www.aeaweb.org/articles.php?doi=10.1257/jep.10.1.69) terminology). 
+
+Agent-based models often relax optimization in favor of "something else." Ongoing research in areas such as [boundedly rational dynamic programming](http://www.nber.org/papers/w17783), [Q-learning & related tools](http://www2.econ.iastate.edu/tesfatsi/aemind.htm), and [N-Period-ahead learning](http://ideas.repec.org/p/ore/uoecwp/2010-15.html) are just a few examples possible alternative behaviors which have a solid theoretical foundation. Another approach, of course, is to "mix" some optimal and non-optimal behavior, either in a single agent (as in Laibson et al.'s  [Natural Expectations](http://www.aeaweb.org/articles.php?doi=10.1257/jep.24.4.67), which is begging to be combined with a Bayesian approach a la [fictive learning](http://www.pnas.org/content/104/22/9493.full) ) or in a population of agents (as in [Lansing](http://www.frbsf.org/economics/economists/staff.php?klansing)'s [work](https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&paper_id=329) and [Wouter den Haan](http://www.wouterdenhaan.com/)'s [work](http://www.wouterdenhaan.com/numerical/boundedrationalityslides.pdf)). Beyond these approaches, of course, are econometric and statistical learning approaches, game-theoretic approaches, and AI and evolutionary approaches. For me an ideal outcome of these processes is a modular learning and expectations-formation procedures that are well-understood both at the individual level as well as at the aggregate level, which may then be used in any number of large-scale simulations.
+
+At the end of the day, we want to discover the simplest, theoretically well-understood learning processes which closely match household and individual behavior. We want "econometric rationality" -- a convex combination of a few simple learning models which give us zero error in expectation when forecasting population behavior. I strongly suspect that the "true structural parameters" which fulfill the Lucas Critique will in fact be learning parameters as well as preference parameters.
