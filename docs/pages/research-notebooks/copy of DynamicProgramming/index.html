@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.17" />
+
+  <title>Dynamic Programming &middot; Compumetrika</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://github.com/compumetrika/homepage/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://github.com/compumetrika/homepage/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://github.com/compumetrika/homepage/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://github.com/compumetrika/homepage/img/favicon.ico" type="image/x-icon" />
+
+  
+    <link rel="stylesheet" href="http://github.com/compumetrika/homepage/css/my.css">
+  
+  
+    <script src="http://github.com/compumetrika/homepage/js/my.js"></script>
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="http://github.com/compumetrika/homepage/">By computing<br>we find out</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://github.com/compumetrika/homepage/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://github.com/compumetrika/homepage/pages/about"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://github.com/compumetrika/homepage/pages/research"><i class='fa fa-area-chart fa-fw'></i>Research</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://github.com/compumetrika/homepage/pages/notebooks"><i class='fa fa-archive fa-fw'></i>Notebooks</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://github.com/compumetrika/homepage/post/"><i class='fa fa-list fa-fw'></i>Blog</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/nathan-m-palmer" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/compumetrika" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2017. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Dynamic Programming</h1>
+  <h2></h2>
+</div>
+<div class="content">
+  
+
+<p>Dynamic programming is a broad set of methods for solving hard / complicated problems by recusively breaking them down into simpler sub-problems and solving those. The method is used widely in economics to solve optimization problems associated with agent choice (as reflected in <a href="https://books.google.com/books?id=Xx-j-tYaPQUC&amp;lpg=PR5&amp;vq=imperialism&amp;pg=PA1#v=onepage&amp;q&amp;f=false">Sargent&rsquo;s &ldquo;Imperialism of recursive methods&rdquo; preface</a> ).</p>
+
+<h3 id="resources">Resources:</h3>
+
+<p>Simply a collection of resources I have personally found useful. I make no claim that these represent an exhaustive survey. In addition to the &ldquo;typical&rdquo; dynamic programming texts, the following are some slightly less common resources for DP in economics.</p>
+
+<ul>
+<li><a href="https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html">Reinforcement Learning</a> by Sutton and Barto. See Chapters 3 and 4 for an excellent entry-level discussion of the dynamic programming framework.</li>
+<li>Adda/Cooper</li>
+<li>Chris Carroll&rsquo;s electronic notes</li>
+<li>Bertsekas, Abstract DP and many resources</li>
+<li>Powell, Approx DP</li>
+<li>Jose Vidal, Multiagent Systems</li>
+</ul>
+
+</div>
+
+</div>
+</div>
+<script src="http://github.com/compumetrika/homepage/js/ui.js"></script>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages-rsses on Compumetrika</title>
+    <link>http://github.com/compumetrika/homepage/pages/index.xml</link>
+    <description>Recent content in Pages-rsses on Compumetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 25 Jan 2017 21:44:23 -0500</lastBuildDate>
+    <atom:link href="http://github.com/compumetrika/homepage/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Notebooks</title>
+      <link>http://github.com/compumetrika/homepage/pages/notebooks/</link>
+      <pubDate>Wed, 25 Jan 2017 21:44:23 -0500</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/notebooks/</guid>
+      <description>
+
+&lt;p&gt;This is simple collection of hypertext notebooks, unabashedly inspired by Cosma Shalizi&amp;rsquo;s &lt;a href=&#34;http://bactra.org/notebooks/&#34;&gt;excellent collection&lt;/a&gt;. I find myself frequently jotting down ideas on tiny scraps of paper, napkins, etc., always to be lost in the shuffle. This is a simple way to collect those in one place. At a minimum, these are simple lists of references to resources I&amp;rsquo;ve found useful for a particular topic.&lt;/p&gt;
+
+&lt;p&gt;These are organized &lt;del&gt;alphabetically&lt;/del&gt; by my personal interest, and all will almost certainly be in a continual state of update:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/ABM&#34;&gt;Agent Based Modeling&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Also, &amp;ldquo;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/So-You-Want-To-Build-an-ABM&#34;&gt;So you want to build an ABM&lt;/a&gt;&amp;ldquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/DynamicProgramming&#34;&gt;Dynamic Programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research-notebooks/Learning-and-Expectations&#34;&gt;Learning and Expectations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;notebooks-yet-to-write&#34;&gt;Notebooks Yet to Write&lt;/h2&gt;
+
+&lt;p&gt;By order of interest:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reinforcement learning&lt;/li&gt;
+&lt;li&gt;Automatic differentiation&lt;/li&gt;
+&lt;li&gt;Pandoc and related tools&lt;/li&gt;
+&lt;li&gt;Simulation-based estimation&lt;/li&gt;
+&lt;li&gt;Machine learning&lt;/li&gt;
+&lt;li&gt;Multivariate statistics&lt;/li&gt;
+&lt;li&gt;Approximate dynamic programming (&amp;ldquo;ADP&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Bayesian stats&lt;/li&gt;
+&lt;li&gt;Big Data&lt;/li&gt;
+&lt;li&gt;Heterogeneous agents&lt;/li&gt;
+&lt;li&gt;Learning-to-optimize, methods&lt;/li&gt;
+&lt;li&gt;Learning to optimize in practice
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;How do people learn in real life?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Model selection&lt;/li&gt;
+&lt;li&gt;Optimization in non-stationary systems&lt;/li&gt;
+&lt;li&gt;Rational expectations&lt;/li&gt;
+&lt;li&gt;Power laws&lt;/li&gt;
+&lt;li&gt;Simulation-based optimization&lt;/li&gt;
+&lt;li&gt;Statistics for the (Computational) Social Scientist&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Agent-Based Models</title>
+      <link>http://github.com/compumetrika/homepage/pages/research-notebooks/ABM/</link>
+      <pubDate>Wed, 25 Jan 2017 21:44:13 -0500</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research-notebooks/ABM/</guid>
+      <description>&lt;p&gt;I strongly believe that agent-based modeling is simply the next step in computational economic modeling, incorporating insights from software engineering to construct models that &amp;ldquo;trace out&amp;rdquo; the effects of &amp;ldquo;well tested theory&amp;rdquo; (to use &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/jep.10.1.69&#34;&gt;Kydland and Prescott&amp;rsquo;s&lt;/a&gt; terminology).&lt;/p&gt;
+
+&lt;p&gt;Agent-based models often relax optimization in favor of &amp;ldquo;something else.&amp;rdquo; Ongoing research in areas such as &lt;a href=&#34;http://www.nber.org/papers/w17783&#34;&gt;boundedly rational dynamic programming&lt;/a&gt;, &lt;a href=&#34;http://www2.econ.iastate.edu/tesfatsi/aemind.htm&#34;&gt;Q-learning &amp;amp; related tools&lt;/a&gt;, and &lt;a href=&#34;http://ideas.repec.org/p/ore/uoecwp/2010-15.html&#34;&gt;N-Period-ahead learning&lt;/a&gt; are just a few examples possible alternative behaviors which have a solid theoretical foundation. Another approach, of course, is to &amp;ldquo;mix&amp;rdquo; some optimal and non-optimal behavior, either in a single agent (as in Laibson et al.&amp;rsquo;s  &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/jep.24.4.67&#34;&gt;Natural Expectations&lt;/a&gt;, which is begging to be combined with a Bayesian approach a la &lt;a href=&#34;http://www.pnas.org/content/104/22/9493.full&#34;&gt;fictive learning&lt;/a&gt; ) or in a population of agents (as in &lt;a href=&#34;http://www.frbsf.org/economics/economists/staff.php?klansing&#34;&gt;Lansing&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&amp;amp;paper_id=329&#34;&gt;work&lt;/a&gt; and &lt;a href=&#34;http://www.wouterdenhaan.com/&#34;&gt;Wouter den Haan&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;http://www.wouterdenhaan.com/numerical/boundedrationalityslides.pdf&#34;&gt;work&lt;/a&gt;). Beyond these approaches, of course, are econometric and statistical learning approaches, game-theoretic approaches, and AI and evolutionary approaches. For me an ideal outcome of these processes is a modular learning and expectations-formation procedures that are well-understood both at the individual level as well as at the aggregate level, which may then be used in any number of large-scale simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Programming</title>
+      <link>http://github.com/compumetrika/homepage/pages/research-notebooks/DynamicProgramming/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research-notebooks/DynamicProgramming/</guid>
+      <description>
+
+&lt;p&gt;Dynamic programming is a broad set of methods for solving hard / complicated problems by recusively breaking them down into simpler sub-problems and solving those. The method is used widely in economics to solve optimization problems associated with agent choice (as reflected in &lt;a href=&#34;https://books.google.com/books?id=Xx-j-tYaPQUC&amp;amp;lpg=PR5&amp;amp;vq=imperialism&amp;amp;pg=PA1#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;Sargent&amp;rsquo;s &amp;ldquo;Imperialism of recursive methods&amp;rdquo; preface&lt;/a&gt; ).&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;Simply a collection of resources I have personally found useful. I make no claim that these represent an exhaustive survey. In addition to the &amp;ldquo;typical&amp;rdquo; dynamic programming texts, the following are some slightly less common resources for DP in economics.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html&#34;&gt;Reinforcement Learning&lt;/a&gt; by Sutton and Barto. See Chapters 3 and 4 for an excellent entry-level discussion of the dynamic programming framework.&lt;/li&gt;
+&lt;li&gt;Adda/Cooper&lt;/li&gt;
+&lt;li&gt;Chris Carroll&amp;rsquo;s electronic notes&lt;/li&gt;
+&lt;li&gt;Bertsekas, Abstract DP and many resources&lt;/li&gt;
+&lt;li&gt;Powell, Approx DP&lt;/li&gt;
+&lt;li&gt;Jose Vidal, Multiagent Systems&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Programming</title>
+      <link>http://github.com/compumetrika/homepage/pages/research-notebooks/copy%20of%20DynamicProgramming/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research-notebooks/copy%20of%20DynamicProgramming/</guid>
+      <description>
+
+&lt;p&gt;Dynamic programming is a broad set of methods for solving hard / complicated problems by recusively breaking them down into simpler sub-problems and solving those. The method is used widely in economics to solve optimization problems associated with agent choice (as reflected in &lt;a href=&#34;https://books.google.com/books?id=Xx-j-tYaPQUC&amp;amp;lpg=PR5&amp;amp;vq=imperialism&amp;amp;pg=PA1#v=onepage&amp;amp;q&amp;amp;f=false&#34;&gt;Sargent&amp;rsquo;s &amp;ldquo;Imperialism of recursive methods&amp;rdquo; preface&lt;/a&gt; ).&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources:&lt;/h3&gt;
+
+&lt;p&gt;Simply a collection of resources I have personally found useful. I make no claim that these represent an exhaustive survey. In addition to the &amp;ldquo;typical&amp;rdquo; dynamic programming texts, the following are some slightly less common resources for DP in economics.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html&#34;&gt;Reinforcement Learning&lt;/a&gt; by Sutton and Barto. See Chapters 3 and 4 for an excellent entry-level discussion of the dynamic programming framework.&lt;/li&gt;
+&lt;li&gt;Adda/Cooper&lt;/li&gt;
+&lt;li&gt;Chris Carroll&amp;rsquo;s electronic notes&lt;/li&gt;
+&lt;li&gt;Bertsekas, Abstract DP and many resources&lt;/li&gt;
+&lt;li&gt;Powell, Approx DP&lt;/li&gt;
+&lt;li&gt;Jose Vidal, Multiagent Systems&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://github.com/compumetrika/homepage/pages/about/</link>
+      <pubDate>Wed, 15 Apr 2015 21:34:49 -0400</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/about/</guid>
+      <description>
+
+&lt;p&gt;Welcome to my personal homepage. I hold a PhD in &lt;a href=&#34;http://www.css.gmu.edu/&#34;&gt;Computational Social Science&lt;/a&gt; from George Mason University and currently currently work as a computational economist at the &lt;a href=&#34;https://www.financialresearch.gov/&#34;&gt;Office of Financial Research&lt;/a&gt; in the U.S. Treasury.*&lt;/p&gt;
+
+&lt;p&gt;*&lt;em&gt;Please note: all opinions expressed here are my own and do not represent those of the Office of Financial Research, U.S. Treasury, or any other potentially affiliated organizations.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;areas-of-expertise&#34;&gt;Areas of Expertise&lt;/h2&gt;
+
+&lt;p&gt;I specialize in simulation techniques applied to macroeconomics and finance, household finance, and a wide range of related subjects. The statistical tools needed to understand and construct these models are also a key interest of mine.&lt;/p&gt;
+
+&lt;p&gt;There is a tremendous amount of computing power and data available to us these days. I work on methods that bring together &amp;ldquo;big data&amp;rdquo; and &amp;ldquo;big computation&amp;rdquo; to address research questions. One of these tools is &lt;a href=&#34;https://en.wikipedia.org/wiki/Agent-based_model&#34;&gt;agent-based models&lt;/a&gt; (ABM). My research addresses fundamental questions associated with this class of model, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where does agent behavior come from?&lt;/li&gt;
+&lt;li&gt;How do you get prices?&lt;/li&gt;
+&lt;li&gt;How do you estimate these models?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The answers to these questions come from the economic and applied mathematics literatures, and include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Behavior: adaptive approximate optimization&lt;/li&gt;
+&lt;li&gt;Prices: any number of market structures - clearing, search, matching, N-lateral trade, market makers, etc.&lt;/li&gt;
+&lt;li&gt;Estimation: simulation-based inference.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I thoroughly enjoy the programming and computational methods required to answer these questions and the &lt;a href=&#34;http://johnstachurski.net/maths.html&#34;&gt;mathematics&lt;/a&gt; needed to understand and use computational models. These topics are covered further in my research pages and notebooks.&lt;/p&gt;
+
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+
+&lt;p&gt;My &lt;a href=&#34;http://github.com/compumetrika/homepage/pages/research&#34;&gt;research page&lt;/a&gt; outlines my publications and work in progress.&lt;/p&gt;
+
+&lt;h2 id=&#34;notebooks&#34;&gt;Notebooks&lt;/h2&gt;
+
+&lt;p&gt;My &lt;a href=&#34;http://github.com/compumetrika/homepage/pages/notebooks&#34;&gt;notebooks&lt;/a&gt; are a simple collection of ideas and resources, spanning a wide range to topics. These exist as a &amp;ldquo;scratchwork area&amp;rdquo; to store things I personally find useful or interesting. If you find them useful as well, excellent! (And if you feel anything useful is missing, feel free to send a reference.)&lt;/p&gt;
+
+&lt;h2 id=&#34;teaching&#34;&gt;Teaching&lt;/h2&gt;
+
+&lt;p&gt;I have enjoyed teaching computational supplements in &lt;a href=&#34;https://ices.gmu.edu/academics/courses&#34;&gt;Econ 838&lt;/a&gt; and &lt;a href=&#34;http://www.css.gmu.edu/~axtell/Rob/Teaching.html&#34;&gt;CSS 739&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My material for parametric and non-parametric statistics for Econ 838 is only available to students who have taken the course or obtained special permission from the instructor.&lt;/p&gt;
+
+&lt;p&gt;My crash course in dynamic programming for CSS 739 may be available upon request.&lt;/p&gt;
+
+&lt;h2 id=&#34;blog&#34;&gt;Blog&lt;/h2&gt;
+
+&lt;p&gt;My blog (which is updated infrequently) can be found &lt;a href=&#34;http://github.com/compumetrika/homepage/#blog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;interests&#34;&gt;Interests&lt;/h2&gt;
+
+&lt;p&gt;Aside from &lt;a href=&#34;http://www.comp-econ.org/&#34;&gt;computational economics&lt;/a&gt; and &lt;a href=&#34;http://www.youtube.com/watch?v=c-sieJVR5TI&#34;&gt;agent-based&lt;/a&gt; &lt;a href=&#34;http://www2.econ.iastate.edu/tesfatsi/ace.htm&#34;&gt;modeling&lt;/a&gt;, I thoroughly enjoy being outdoors. As a native South Texan, I miss Tex-Mex and &amp;ldquo;western ballroom&amp;rdquo; (two-step, waltz, polka, swing). I recently discovered that some activities I enjoyed in undergrad are nowadays described as &amp;ldquo;freerunning&amp;rdquo; or &amp;ldquo;&lt;a href=&#34;http://en.wikipedia.org/wiki/Parkour&#34;&gt;parkour&lt;/a&gt;.&amp;rdquo; I&amp;rsquo;m certainly not in shape enough for that now, but I&amp;rsquo;d love to get into it again someday&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;On an academic note, I really enjoy &lt;a href=&#34;http://lectures.quantecon.org/py/index.html&#34;&gt;programming and computational approaches&lt;/a&gt;, and the &lt;a href=&#34;http://johnstachurski.net/maths.html&#34;&gt;mathematics&lt;/a&gt; needed to understand and use computational models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://github.com/compumetrika/homepage/pages/backup_of_research/</link>
+      <pubDate>Wed, 15 Apr 2015 21:21:50 -0400</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/backup_of_research/</guid>
+      <description>
+
+&lt;p&gt;This page is in progress &amp;ndash; actively being updated from a much older vintage!&lt;/p&gt;
+
+&lt;h2 id=&#34;publications-work-in-progress&#34;&gt;Publications &amp;amp; Work in Progress&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Geanakoplos et al (2012), &amp;ldquo;Getting at Systemic Risk via an Agent-Based Model of the Housing Market.&amp;rdquo; &lt;em&gt;American Economic Review&lt;/em&gt;, 102(3): 53–58.
+
+&lt;ul&gt;
+&lt;li&gt;Efforts to address agent behavior in this highly complicated setting motivated my dissertation research.&lt;/li&gt;
+&lt;li&gt;Paper &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/aer.102.3.53&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More in Peter Howitt&amp;rsquo;s Session 2 &lt;a href=&#34;http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;here&lt;/a&gt;; in particular, see the discussion by Sufi, Sims, Cochrane, Hansen, and others. Cochrane&amp;rsquo;s questions in particular are what I hope to address in my own research. (&lt;a href=&#34;https://web.archive.org/web/*/http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;Archived&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Rob Axtell discusses this model briefly near the end of &lt;a href=&#34;http://www.youtube.com/watch?v=c-sieJVR5TI&#34;&gt;this talk&lt;/a&gt;, around 12:40.&lt;/li&gt;
+&lt;li&gt;Updated versions:
+
+&lt;ul&gt;
+&lt;li&gt;Slides, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_04_eltville_08_agent_based_model_of_housing_market_bubble_presentation.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paper, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_05_eltville_10_axtell.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My consumption research &lt;a href=&#34;http://editorialexpress.com/conference/CEF2012/program/CEF2012.html#31&#34;&gt;presented&lt;/a&gt; at &lt;a href=&#34;http://comp-econ.org/CEF_2012/index.htm&#34;&gt;CEF 2012&lt;/a&gt;.
+
+&lt;ul&gt;
+&lt;li&gt;Very preliminary version of the paper is &lt;a href=&#34;https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&amp;amp;paper_id=450&#34;&gt;linked here&lt;/a&gt;; an &lt;em&gt;&lt;strong&gt;extensively&lt;/strong&gt;&lt;/em&gt; updated version is in progress and will be out any day now&amp;hellip;&lt;/li&gt;
+&lt;li&gt;CEF Slides can be found &lt;a href=&#34;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxuYXRoYW5tcGFsbWVyfGd4OjEzNTYzNzExMTExMTAyMGE&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Heterogeneous-Agent Resources toolKit (HARK) with Chris Carroll, Matt White, David Low, and many others: an effort to bring together cutting-edge tools from research and software development to create a modular, extensible set of code libraries for the easy creation of heterogeneous-agent, micro-founded models. These are to include models in which some &amp;ldquo;alpha&amp;rdquo; fraction of truly rational agents are mixed in with (1-alpha) non-optimizing agents. A truly rational agent in this setting, of course, must anticipate the actions and outcomes of both the non-optimizing agents as well as the optimizing agents.
+
+&lt;ul&gt;
+&lt;li&gt;This is a particularly exciting project &amp;ndash; much more coming soon!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://github.com/compumetrika/homepage/pages/research/</link>
+      <pubDate>Wed, 15 Apr 2015 21:21:50 -0400</pubDate>
+      
+      <guid>http://github.com/compumetrika/homepage/pages/research/</guid>
+      <description>
+
+&lt;h1 id=&#34;work-in-progress&#34;&gt;Work in Progress&lt;/h1&gt;
+
+&lt;h4 id=&#34;palmer-n-m-2017-estimation-and-selection-in-micro-structural-model-of-consumption&#34;&gt;Palmer, N. M. (2017), Estimation and Selection in Micro-Structural Model of Consumption&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A structural microeconomic estimation of the fraction of rule-of-thumb households versus life cycle optimizing households in micro data. Initial results are consistent with roughly 50% of households following a rule of thumb, a structural microeconomic echo of Campbell and Mankiw&amp;rsquo;s (&lt;a href=&#34;http://www.nber.org/papers/w2924&#34;&gt;1989&lt;/a&gt;, &lt;a href=&#34;http://econpapers.repec.org/article/besjnlbes/v_3a8_3ay_3a1990_3ai_3a3_3ap_3a265-79.htm&#34;&gt;1990&lt;/a&gt; ) result.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Draft in progress.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;palmer-n-m-2017-learning-to-dynamically-optimize-from-individual-experience&#34;&gt;Palmer, N. M. (2017), Learning to Dynamically Optimize from Individual Experience&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A theoretical model of households learning the optimal consumption-savings problem from their own experience. This draws from the recent &lt;a href=&#34;http://web.mit.edu/dimitrib/www/dpchapter.html&#34;&gt;approximate dynamic programming&lt;/a&gt; and &lt;a href=&#34;https://mitpress.mit.edu/books/reinforcement-learning&#34;&gt;reinforcement learning&lt;/a&gt; literatures to develop a relatively fast, low-parameter, intuitive learning mechanism based on individual agent&amp;rsquo;s &amp;ldquo;regret&amp;rdquo; regarding past decisions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Presented at &lt;a href=&#34;https://editorialexpress.com/conference/CEF2016/program/CEF2016.html&#34;&gt;CEF 2016&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Draft in progress, nearly complete.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;carroll-kaufman-low-palmer-white-2017-heterogeneous-agents-resources-and-toolkit-hark-https-github-com-econ-ark-hark&#34;&gt;Carroll, Kaufman, Low, Palmer, White (2017), &amp;ldquo;&lt;a href=&#34;https://github.com/econ-ark/HARK&#34;&gt;Heterogeneous Agents Resources and toolKit (HARK)&lt;/a&gt;&amp;ldquo;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A toolkit for creating heterogeneous-agent macroeconomic models using the &lt;a href=&#34;http://www.journals.uchicago.edu/doi/abs/10.1086/250034?journalCode=jpe&#34;&gt;Krusell-Smith (1998)&lt;/a&gt; solution algorithm, household life-cycle optimization, and simulation-based estimation.
+
+&lt;ul&gt;
+&lt;li&gt;Because the Krusell-Smith algorithm can be used to solve models which contain a mix of optimizing and non-optimizing agents (as seen in their earlier 1996 paper, &amp;ldquo;&amp;rdquo;), I intend to use this to explore models which mix elements of traditional and agent-based models.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;palmer-n-m-2012-learning-to-consume-social-learning&#34;&gt;Palmer, N. M. (2012), Learning to Consume: Social Learning&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A simple model of households learning the optimal consumption-savings problem from the experience of others. Think replicator dynamics, but with estimates of infinite-horizon value functions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This social learning consumption research &lt;a href=&#34;http://editorialexpress.com/conference/CEF2012/program/CEF2012.html#31&#34;&gt;presented&lt;/a&gt; at &lt;a href=&#34;http://comp-econ.org/CEF_2012/index.htm&#34;&gt;CEF 2012&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Very preliminary version of the paper is &lt;a href=&#34;https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=CEF2012&amp;amp;paper_id=450&#34;&gt;linked here&lt;/a&gt;; an &lt;em&gt;&lt;strong&gt;extensively&lt;/strong&gt;&lt;/em&gt; updated version is in progress and will be out any day now&amp;hellip;&lt;/li&gt;
+&lt;li&gt;CEF Slides can be found &lt;a href=&#34;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxuYXRoYW5tcGFsbWVyfGd4OjEzNTYzNzExMTExMTAyMGE&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;published&#34;&gt;Published&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Geanakoplos, J., Axtell, R., Farmer, D.J., Howitt, P., Conlee, B., Goldstein, J., Hendrey, M., Palmer, N.M. and Yang, C.Y (2012), &amp;ldquo;Getting at Systemic Risk via an Agent-Based Model of the Housing Market.&amp;rdquo; &lt;em&gt;American Economic Review&lt;/em&gt;, 102(3): 53–58.
+
+&lt;ul&gt;
+&lt;li&gt;Efforts to address agent behavior in this highly complicated setting motivated my dissertation research.&lt;/li&gt;
+&lt;li&gt;Paper &lt;a href=&#34;http://www.aeaweb.org/articles.php?doi=10.1257/aer.102.3.53&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;More in Peter Howitt&amp;rsquo;s Session 2 &lt;a href=&#34;http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;here&lt;/a&gt;; in particular, see the discussion by Sufi, Sims, Cochrane, Hansen, and others. Cochrane&amp;rsquo;s questions in particular are what I hope to address in my own research. (&lt;a href=&#34;https://web.archive.org/web/*/http://bfi.uchicago.edu/events/macro-financial-modeling-meeting-spring-2013&#34;&gt;Archived&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;Rob Axtell discusses this model briefly near the end of &lt;a href=&#34;http://www.youtube.com/watch?v=c-sieJVR5TI&#34;&gt;this talk&lt;/a&gt;, around 12:40.&lt;/li&gt;
+&lt;li&gt;Updated versions:
+
+&lt;ul&gt;
+&lt;li&gt;Slides, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_04_eltville_08_agent_based_model_of_housing_market_bubble_presentation.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paper, &lt;a href=&#34;https://www.bundesbank.de/Redaktion/EN/Downloads/Bundesbank/Research_Centre/Conferences/2014/2014_06_05_eltville_10_axtell.pdf?__blob=publicationFile&#34;&gt;2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;additional-topics-of-interest&#34;&gt;Additional Topics of Interest&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Housing in the macroeconomy&lt;/li&gt;
+&lt;li&gt;Banking/financial frictions in the macroeconomy&lt;/li&gt;
+&lt;li&gt;Heterogeneous-agent macroeconomic models&lt;/li&gt;
+&lt;li&gt;Simulation-based estimation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
